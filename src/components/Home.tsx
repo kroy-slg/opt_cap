@@ -102,9 +102,9 @@ const Home: FC = () => {
       <h1>Capsyl</h1>
       <div className='description'>
         <p>
-          In this Project, we are introducing <strong>Auto Backups</strong> feature in web client of <strong>Capsyl</strong>: <b>PWA</b>
+          In this Project, we are introducing <strong>auto backup</strong> feature in web client of <strong>Capsyl</strong>: <strong>PWA</strong>
           <br/><br/>
-          Here, when the user clicks the button below, the browser will ask for user permission to create a <strong>autoSync</strong> folder on their <b>File System</b>. If the user allows PWA to create the <em>autoSync</em> folder, it will create <em>autoSync</em> folder on the user's Local <em>File System</em>. The <em>autoSync</em> folder is <strong>configured</strong> to automatically back up files stored in this folder.
+          Here, when the user click below button, the browser will ask for user permission to create a <strong>autoSync</strong> folder on their <strong>File System</strong>. If the user allows <em>PWA</em> to create the <em>autoSync</em> folder, it will create <em>autoSync</em> folder on the user's Local <em>File System</em>. The <em>autoSync</em> folder is <strong>configured</strong> in such a way that it will take <em>auto backup</em> for files are kept on to <strong>autoSync</strong> folder.
         </p>
       </div>
       <button className="start-autosync-button" onClick={handleStartAutoSync}>
