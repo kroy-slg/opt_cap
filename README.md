@@ -27,5 +27,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Start server :
 Go to server directory and run below command:
 
-### `npm start`
+### `npm run server`
 Above command will start server
